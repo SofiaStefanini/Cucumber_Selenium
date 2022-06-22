@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4182418000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Ingresar a la categoria comics desde la pantalla Home",
+        "description": "",
+        "id": "validar-links-pagina-principal;ingresar-a-la-categoria-comics-desde-la-pantalla-home",
+        "after": [
+          {
+            "result": {
+              "duration": 823341100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 244118200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "El usuario se encuentra en la pagina Home de iamalittletester",
+            "match": {
+              "location": "Test.el_usuario_se_encuentra_en_la_pagina_Home_de_iamalittletester()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 910166599,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hace clic solo el boton de The little tester comics",
+            "match": {
+              "location": "Test.hace_clic_solo_el_boton_de_The_little_tester_comics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105686400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Se debe redirigir a la pantalla Comics",
+            "match": {
+              "location": "Test.se_debe_redirigir_a_la_pantalla_Comics()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2864879800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Ingresar a la categoria Tutoriales desde la pantalla Home",
+        "description": "",
+        "id": "validar-links-pagina-principal;ingresar-a-la-categoria-tutoriales-desde-la-pantalla-home",
+        "after": [
+          {
+            "result": {
+              "duration": 957546300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73791800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "El usuario se encuentra en la pagina Home de iamalittletester",
+            "match": {
+              "location": "Test.el_usuario_se_encuentra_en_la_pagina_Home_de_iamalittletester()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2714757001,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Hace clic solo el boton de My tutorial and talks",
+            "match": {
+              "location": "Test.hace_clic_solo_el_boton_de_My_tutorial_and_talks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87059701,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cTutorials[]\u003e but was:\u003cTutorials[ and trainings]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat seleniumgluecode.Test.se_debe_redirigir_a_la_pantalla_Tutorial(Test.java:49)\r\n\tat ✽.Then Se debe redirigir a la pantalla Tutorial(test.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "Se debe redirigir a la pantalla Tutorial",
+            "match": {
+              "location": "Test.se_debe_redirigir_a_la_pantalla_Tutorial()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validar Links pagina principal",
+    "description": "",
+    "id": "validar-links-pagina-principal",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]

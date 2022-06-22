@@ -1,0 +1,14 @@
+{
+  "name": "cucumber_selenium",
+  "version": "1.0.0",
+  "description": "Reporte Cucumber-Selenium",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "author": "Sofia Sepulveda",
+  "license": "ISC",
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.20.0"
+  }
+}
